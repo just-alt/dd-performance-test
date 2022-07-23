@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="124" errors="4" warnings="0" failures="0" skipped="1" time="42.786382">
+    <testsuite name="unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.006357">
+      <testsuite name="unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.006357">
+        <testsuite name="Drupal\Tests\action\Unit\Menu\ActionLocalTasksTest" file="/var/www/html/web/core/modules/action/tests/src/Unit/Menu/ActionLocalTasksTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.006357">
+          <testcase name="testActionLocalTasks" class="Drupal\Tests\action\Unit\Menu\ActionLocalTasksTest" classname="Drupal.Tests.action.Unit.Menu.ActionLocalTasksTest" file="/var/www/html/web/core/modules/action/tests/src/Unit/Menu/ActionLocalTasksTest.php" line="22" assertions="1" time="0.006357"/>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="kernel" tests="3" assertions="118" errors="0" warnings="0" failures="0" skipped="0" time="13.229960">
+      <testsuite name="kernel" tests="3" assertions="118" errors="0" warnings="0" failures="0" skipped="0" time="13.229960">
+        <testsuite name="Drupal\KernelTests\Core\Action\EmailActionTest" file="/var/www/html/web/core/tests/Drupal/KernelTests/Core/Action/EmailActionTest.php" tests="1" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.598350">
+          <testcase name="testEmailAction" class="Drupal\KernelTests\Core\Action\EmailActionTest" classname="Drupal.KernelTests.Core.Action.EmailActionTest" file="/var/www/html/web/core/tests/Drupal/KernelTests/Core/Action/EmailActionTest.php" line="33" assertions="9" time="0.598350"/>
+        </testsuite>
+        <testsuite name="Drupal\Tests\system\Kernel\Plugin\migrate\source\ActionTest" file="/var/www/html/web/core/modules/system/tests/src/Kernel/Plugin/migrate/source/ActionTest.php" tests="1" assertions="50" errors="0" warnings="0" failures="0" skipped="0" time="0.366535">
+          <testsuite name="Drupal\Tests\system\Kernel\Plugin\migrate\source\ActionTest::testSource" tests="1" assertions="50" errors="0" warnings="0" failures="0" skipped="0" time="0.366535">
+            <testcase name="testSource with data set #0" class="Drupal\Tests\system\Kernel\Plugin\migrate\source\ActionTest" classname="Drupal.Tests.system.Kernel.Plugin.migrate.source.ActionTest" file="/var/www/html/web/core/modules/system/tests/src/Kernel/Plugin/migrate/source/ActionTest.php" line="87" assertions="50" time="0.366535"/>
+          </testsuite>
+        </testsuite>
+        <testsuite name="Drupal\Tests\system\Kernel\Migrate\d7\MigrateActionsTest" file="/var/www/html/web/core/modules/system/tests/src/Kernel/Migrate/d7/MigrateActionsTest.php" tests="1" assertions="59" errors="0" warnings="0" failures="0" skipped="0" time="12.265075">
+          <testcase name="testActions" class="Drupal\Tests\system\Kernel\Migrate\d7\MigrateActionsTest" classname="Drupal.Tests.system.Kernel.Migrate.d7.MigrateActionsTest" file="/var/www/html/web/core/modules/system/tests/src/Kernel/Migrate/d7/MigrateActionsTest.php" line="28" assertions="59" time="12.265075"/>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="functional" tests="4" assertions="4" errors="4" warnings="0" failures="0" skipped="0" time="23.570881">
+      <testsuite name="functional" tests="4" assertions="4" errors="4" warnings="0" failures="0" skipped="0" time="23.570881">
+        <testsuite name="Drupal\Tests\views\Functional\UserBatchActionTest" file="/var/www/html/web/core/modules/views/tests/src/Functional/UserBatchActionTest.php" tests="1" assertions="1" errors="1" warnings="0" failures="0" skipped="0" time="7.447972">
+          <testcase name="testUserAction" class="Drupal\Tests\views\Functional\UserBatchActionTest" classname="Drupal.Tests.views.Functional.UserBatchActionTest" file="/var/www/html/web/core/modules/views/tests/src/Functional/UserBatchActionTest.php" line="36" assertions="1" time="7.447972">
+            <error type="Exception">Drupal\Tests\views\Functional\UserBatchActionTest::testUserAction
+Exception: User warning: mkdir(): Permission Denied
+Drupal\Component\PhpStorage\FileStorage-&gt;createDirectory()() (Line: 123)
+
+
+/var/www/html/web/core/lib/Drupal/Core/Test/HttpClientMiddleware/TestHttpClientMiddleware.php:49
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:204
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:153
+/var/www/html/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:248
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:224
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:269
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:226
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:62
+/var/www/html/vendor/guzzlehttp/guzzle/src/Client.php:182
+/var/www/html/web/core/tests/Drupal/Tests/DrupalTestBrowser.php:137
+/var/www/html/vendor/symfony/browser-kit/Client.php:404
+/var/www/html/vendor/friends-of-behat/mink-browserkit-driver/src/BrowserKitDriver.php:145
+/var/www/html/vendor/behat/mink/src/Session.php:148
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:294
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:264
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:381
+/var/www/html/vendor/phpunit/phpunit/src/Framework/TestResult.php:726</error>
+          </testcase>
+        </testsuite>
+        <testsuite name="Drupal\Tests\action\Functional\ActionUninstallTest" file="/var/www/html/web/core/modules/action/tests/src/Functional/ActionUninstallTest.php" tests="1" assertions="1" errors="1" warnings="0" failures="0" skipped="0" time="6.635991">
+          <testcase name="testActionUninstall" class="Drupal\Tests\action\Functional\ActionUninstallTest" classname="Drupal.Tests.action.Functional.ActionUninstallTest" file="/var/www/html/web/core/modules/action/tests/src/Functional/ActionUninstallTest.php" line="31" assertions="1" time="6.635991">
+            <error type="Exception">Drupal\Tests\action\Functional\ActionUninstallTest::testActionUninstall
+Exception: User warning: mkdir(): Permission Denied
+Drupal\Component\PhpStorage\FileStorage-&gt;createDirectory()() (Line: 123)
+
+
+/var/www/html/web/core/lib/Drupal/Core/Test/HttpClientMiddleware/TestHttpClientMiddleware.php:49
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:204
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:153
+/var/www/html/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:248
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:224
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:269
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:226
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:62
+/var/www/html/vendor/guzzlehttp/guzzle/src/Client.php:182
+/var/www/html/web/core/tests/Drupal/Tests/DrupalTestBrowser.php:137
+/var/www/html/vendor/symfony/browser-kit/Client.php:404
+/var/www/html/vendor/friends-of-behat/mink-browserkit-driver/src/BrowserKitDriver.php:145
+/var/www/html/vendor/behat/mink/src/Session.php:148
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:294
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:264
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:381
+/var/www/html/vendor/phpunit/phpunit/src/Framework/TestResult.php:726</error>
+          </testcase>
+        </testsuite>
+        <testsuite name="Drupal\Tests\action\Functional\ActionListTest" file="/var/www/html/web/core/modules/action/tests/src/Functional/ActionListTest.php" tests="1" assertions="1" errors="1" warnings="0" failures="0" skipped="0" time="4.703363">
+          <testcase name="testEmptyActionList" class="Drupal\Tests\action\Functional\ActionListTest" classname="Drupal.Tests.action.Functional.ActionListTest" file="/var/www/html/web/core/modules/action/tests/src/Functional/ActionListTest.php" line="29" assertions="1" time="4.703363">
+            <error type="Exception">Drupal\Tests\action\Functional\ActionListTest::testEmptyActionList
+Exception: User warning: mkdir(): Permission Denied
+Drupal\Component\PhpStorage\FileStorage-&gt;createDirectory()() (Line: 123)
+
+
+/var/www/html/web/core/lib/Drupal/Core/Test/HttpClientMiddleware/TestHttpClientMiddleware.php:49
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:204
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:153
+/var/www/html/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:248
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:224
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:269
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:226
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:62
+/var/www/html/vendor/guzzlehttp/guzzle/src/Client.php:182
+/var/www/html/web/core/tests/Drupal/Tests/DrupalTestBrowser.php:137
+/var/www/html/vendor/symfony/browser-kit/Client.php:404
+/var/www/html/vendor/friends-of-behat/mink-browserkit-driver/src/BrowserKitDriver.php:145
+/var/www/html/vendor/behat/mink/src/Session.php:148
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:294
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:264
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:381
+/var/www/html/vendor/phpunit/phpunit/src/Framework/TestResult.php:726</error>
+          </testcase>
+        </testsuite>
+        <testsuite name="Drupal\Tests\action\Functional\ConfigurationTest" file="/var/www/html/web/core/modules/action/tests/src/Functional/ConfigurationTest.php" tests="1" assertions="1" errors="1" warnings="0" failures="0" skipped="0" time="4.783556">
+          <testcase name="testActionConfiguration" class="Drupal\Tests\action\Functional\ConfigurationTest" classname="Drupal.Tests.action.Functional.ConfigurationTest" file="/var/www/html/web/core/modules/action/tests/src/Functional/ConfigurationTest.php" line="32" assertions="1" time="4.783556">
+            <error type="Exception">Drupal\Tests\action\Functional\ConfigurationTest::testActionConfiguration
+Exception: User warning: mkdir(): Permission Denied
+Drupal\Component\PhpStorage\FileStorage-&gt;createDirectory()() (Line: 123)
+
+
+/var/www/html/web/core/lib/Drupal/Core/Test/HttpClientMiddleware/TestHttpClientMiddleware.php:49
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:204
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:153
+/var/www/html/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:248
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:224
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:269
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:226
+/var/www/html/vendor/guzzlehttp/promises/src/Promise.php:62
+/var/www/html/vendor/guzzlehttp/guzzle/src/Client.php:182
+/var/www/html/web/core/tests/Drupal/Tests/DrupalTestBrowser.php:137
+/var/www/html/vendor/symfony/browser-kit/Client.php:404
+/var/www/html/vendor/friends-of-behat/mink-browserkit-driver/src/BrowserKitDriver.php:145
+/var/www/html/vendor/behat/mink/src/Session.php:148
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:294
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:264
+/var/www/html/web/core/tests/Drupal/Tests/BrowserTestBase.php:381
+/var/www/html/vendor/phpunit/phpunit/src/Framework/TestResult.php:726</error>
+          </testcase>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="functional-javascript" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="1" time="5.979184">
+      <testsuite name="functional-javascript" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="1" time="5.979184">
+        <testsuite name="Drupal\Tests\action\FunctionalJavascript\ActionFormAjaxTest" file="/var/www/html/web/core/modules/action/tests/src/FunctionalJavascript/ActionFormAjaxTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="1" time="5.979184">
+          <testcase name="testActionConfigurationWithAjax" class="Drupal\Tests\action\FunctionalJavascript\ActionFormAjaxTest" classname="Drupal.Tests.action.FunctionalJavascript.ActionFormAjaxTest" file="/var/www/html/web/core/modules/action/tests/src/FunctionalJavascript/ActionFormAjaxTest.php" line="38" assertions="1" time="5.979184">
+            <skipped/>
+          </testcase>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
